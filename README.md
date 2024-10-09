@@ -68,7 +68,7 @@ This project implements a sequence-to-sequence (Seq2Seq) model using LSTM (Long 
    - **Epochs**: 20
    - **Latent Dimension**: 256 (for LSTM hidden states)
    - **Validation Split**: 20% of training data was used for validation.
-   [/images/Screenshot from 2024-10-09 03-21-39.png]
+   (/images/Screenshot from 2024-10-09 03-21-39.png)
 
 3. **Training Procedure**:
    - The model was trained using the `fit` method with the training data and validated on the validation split.
@@ -82,10 +82,10 @@ This project implements a sequence-to-sequence (Seq2Seq) model using LSTM (Long 
    - Test loss and test accuracy were used to evaluate the model's performance on the unseen test set.
 
 2. **Evaluation Results**:
-   - **Test Loss**: [/images/Screenshot from 2024-10-09 03-22-54.png]
+   - **Test Loss**: (/images/Screenshot from 2024-10-09 03-22-54.png)
 
 3. **Training and Validation Loss/Accuracy**:
-   - Plots were generated to visualize training and validation loss and accuracy over epochs.: [/images/Screenshot from 2024-10-09 03-22-15.png]
+   - Plots were generated to visualize training and validation loss and accuracy over epochs.: (/images/Screenshot from 2024-10-09 03-22-15.png
 
 ---
 
