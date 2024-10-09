@@ -1,6 +1,3 @@
-
----
-
 # Ga-English Translation Model
 
 ## Overview
@@ -17,7 +14,7 @@ This project implements a sequence-to-sequence (Seq2Seq) model using LSTM (Long 
 
 ## Dataset Creation and Preprocessing Steps
 
-1. **Dataset Source**: The dataset consists of English sentences and their corresponding translations in Ga. It was manually sourced from the Gosple of John(NWT version of the bible).
+1. **Dataset Source**: The dataset consists of English sentences and their corresponding translations in Ga. It was manually sourced from the Gospel of John (NWT version of the Bible).
    
 2. **Data Loading**: The dataset was loaded into a Pandas DataFrame from a CSV file.
 
@@ -68,7 +65,8 @@ This project implements a sequence-to-sequence (Seq2Seq) model using LSTM (Long 
    - **Epochs**: 20
    - **Latent Dimension**: 256 (for LSTM hidden states)
    - **Validation Split**: 20% of training data was used for validation.
-   (/images/Screenshot from 2024-10-09 03-21-39.png)
+
+   ![Training and Validation Loss](images/Screenshot_from_2024-10-09_03-21-39.png)
 
 3. **Training Procedure**:
    - The model was trained using the `fit` method with the training data and validated on the validation split.
@@ -82,10 +80,12 @@ This project implements a sequence-to-sequence (Seq2Seq) model using LSTM (Long 
    - Test loss and test accuracy were used to evaluate the model's performance on the unseen test set.
 
 2. **Evaluation Results**:
-   - **Test Loss**: (/images/Screenshot from 2024-10-09 03-22-54.png)
+   - **Test Loss**: 
+   ![Test Loss](images/Screenshot_from_2024-10-09_03-22-54.png)
 
 3. **Training and Validation Loss/Accuracy**:
-   - Plots were generated to visualize training and validation loss and accuracy over epochs.: (/images/Screenshot from 2024-10-09 03-22-15.png
+   - Plots were generated to visualize training and validation loss and accuracy over epochs:
+   ![Training and Validation Accuracy](images/Screenshot_from_2024-10-09_03-22-15.png)
 
 ---
 
@@ -105,6 +105,4 @@ This project implements a sequence-to-sequence (Seq2Seq) model using LSTM (Long 
 
 ## Conclusion
 This project lays the groundwork for further exploration and enhancement of machine translation between English and Ga. The architecture and design choices made provide a solid foundation for future improvements.
-
----
 
